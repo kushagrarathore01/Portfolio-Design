@@ -1,0 +1,24 @@
+.portbox:hover img {
+  transform: scale(1.1);
+}
+.portbox:hover .portlayer {
+  transform: translateY(0);
+}
+.active {
+  color: #0ef;
+}
+.homeimg img {
+  animation: floatimg 4s ease-in-out infinite;
+}
+
+@keyframes floatimg {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.3rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

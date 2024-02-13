@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .adesign {
+    @apply inline-flex lg:h-16 lg:w-16 border-[.2rem] justify-center items-center border-solid border-[#0ef] rounded-full text-[#0ef] duration-75 ease-in sm:w-12 sm:h-12;
+  }
+  .adesign:hover {
+    @apply shadow-[#0ef] bg-[#0ef] text-[#1f242d] shadow-myshad;
+  }
+  .btn {
+    @apply bg-[#0ef] text-black inline-block text-xl tracking-wider font-bold py-3 px-8 rounded-3xl outline-none border-none shadow-myshad duration-75 ease-in lg:px-5;
+  }
+  .btn:hover {
+    @apply shadow-none;
+  }
+  .heading {
+    @apply text-6xl flex justify-center gap-4 font-extrabold;
+  }
+  .inputt {
+    @apply w-[49.5%] p-6 text-xl text-white bg-gray-700 rounded-lg my-2;
+  }
+  .portlayer {
+    @apply duration-75 ease-in translate-y-full text-center px-12 flex justify-center items-center flex-col absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-[rgba(0,0,0,.1)] to-[#00eeff93];
+  }
+  .portbox {
+    @apply relative flex rounded-3xl overflow-hidden shadow-myshad2;
+  }
+  .linkhref {
+    @apply inline-flex justify-center items-center w-10 h-10 bg-white rounded-full;
+  }
+  .portboximg {
+    @apply w-full duration-75 ease-linear;
+  }
+  .portboximg:hover {
+    @apply scale-110;
+  }
+  .maincolor {
+    @apply text-[#0ef];
+  }
+  .servicebox {
+    @apply grow basis-96 duration-75 ease-linear hover:border-[#0ef] hover:border-2 hover:scale-y-110 shrink bg-gray-700 px-8 py-12 rounded-2xl text-center border-8 border-solid border-[#1f242d];
+  }
+  .flexallcenter {
+    @apply flex justify-center items-center;
+  }
+  .navhov:hover {
+    @apply text-[#0ef] font-semibold;
+  }
+  .navinsm {
+    @apply absolute top-full w-full left-0 bg-gray-700 py-3 px-[3%] shadow-navsm border border-solid border-[rgb(0,0,0,.2)] border-t-2;
+  }
+}

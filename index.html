@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html
+  class="text-[50%] sm:text-[60%] md:text-[80%] lg:text-[95%] 2xl:text-[105%] 3xl:text-[115%] 4xl:text-[120%]"
+  lang="en"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Portfolio</title>
+  </head>
+  <body
+    class="text-base overflow-x-hidden font-inter scroll-smooth bg-[#1f242d] text-white outline-none border-none"
+  >
+    <!-- Navbar  -->
+    <header
+      class="header fixed bg-[#1f242d] top-0 left-0 w-full py-6 flex items-center justify-between z-[100] duration-150 ease-out px-[3%]"
+    >
+      <a href="#logo" class="logo text-3xl cursor-default font-semibold"
+        >Portfolio</a
+      >
+
+      <i
+        class="bi bi-arrow-left-circle sm:block lg:hidden text-4xl cursor-pointer z-50"
+        id="menuicon"
+      ></i>
+
+      <nav
+        class="navbar font-medium sm:max-lg:hidden text-xl lg:space-x-5 sm:space-y-6 sm:max-lg:navinsm"
+      >
+        <a
+          href="#home"
+          class="active navhov sm:block sm:text-2xl sm:my-4 lg:inline lg:text-xl"
+          >Home</a
+        >
+        <a
+          href="#about"
+          class="navhov sm:block sm:text-2xl sm:my-4 lg:inline lg:text-xl"
+          >About</a
+        >
+        <a
+          href="#services"
+          class="navhov sm:block sm:text-2xl sm:my-4 lg:inline lg:text-xl"
+          >Services</a
+        >
+        <a
+          href="#Portfolio"
+          class="navhov sm:block sm:text-2xl sm:my-4 lg:inline lg:text-xl"
+          >Portfolio</a
+        >
+        <a
+          href="#contact"
+          class="navhov sm:block sm:text-2xl sm:my-4 lg:inline lg:text-xl"
+          >Contact Us</a
+        >
+      </nav>
+    </header>
+
+    <!-- Home Section Design -->
+
+    <section
+      class="home flex justify-center items-center lg:flex-row sm:flex-col-reverse 2xl:min-h-[80vh] 3xl:min-h-[90vh] 4xl:min-h-full px-[9%] xl:pt-40 xl:pb-8 2xl:gap-8 xl:gap-6 xl:min-h-[65vh] xl:px-[5%] lg:min-h-[70vh] lg:px-[3%] sm:gap-8 md:min-h-[60vh] sm:min-h-[52vh] lg:pb-14 lg:pt-14 md:pb-1 md:pt-12 md:mt-10 md:px-[4%] sm:px-[2%] sm:pt-9 sm:pb-5"
+      id="home"
+    >
+      <div class="homecontent lg:text-left sm:text-center xl:text-left">
+        <h3
+          class="sm:text-2xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-semibold"
+        >
+          Hello,It's Me
+        </h3>
+        <h1
+          class="sm:text-4xl homeheading 2xl:text-4xl 3xl:text-5xl 4xl:text-6xl md:leading-snug font-bold"
+        >
+          Kushagra Rathore
+        </h1>
+        <h3
+          class="sm:text-2xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-semibold lg:mb-2 2xl:mb-4 3xl:mb-5 4xl:mb-6"
+        >
+          And I'm a
+          <span class="maincolor multiple-text">FrontEnd Developer</span>
+        </h3>
+
+        <p
+          class="text-xl xl:text-lg lg:text-base sm:mt-3 sm:mb-6 2xl:mt-5 2xl:mb-8 4xl:mt-8 4xl:mb-12 sm:text-xl homep"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In, qui. Aut,
+          harum. Officia voluptatibus eaque modi, provident id natus amet
+          cupiditate rerum iste earum nemo! Est sunt provident molestias
+          distinctio.
+        </p>
+        <div
+          class="socialmedia md:mt-4 sm:mb-6 2xl:my-6 4xl:my-8 2xl:space-x-6"
+        >
+          <a class="adesign" href="linkedin"
+            ><i class="bi bi-linkedin lg:text-3xl sm:text-2xl"></i
+          ></a>
+          <a class="adesign" href="insta"
+            ><i class="bi bi-instagram lg:text-3xl sm:text-2xl"></i
+          ></a>
+          <a class="adesign" href="github"
+            ><i class="bi bi-github lg:text-3xl sm:text-2xl"></i
+          ></a>
+        </div>
+        <button class="btn">Download CV</button>
+      </div>
+      <div class="homeimg">
+        <img
+          class="sm:w-[40vw] lg:w-[90vw] 2xl:w-[100vw] 4xl:w-[70vw]"
+          src="images/ethan-hoover-eIVJAkj1uCs-unsplash.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- About Section Design  -->
+    <section
+      class="about 2xl:min-h-[80vh] 3xl:min-h-[90vh] 4xl:min-h-full xl:pt-20 xl:pb-20 lg:pb-14 lg:pt-14 md:pb-9 md:pt-12 md:px-[4%] flex justify-between items-center lg:flex-row sm:flex-col bg-gray-700 gap-8 xl:min-h-[65vh] xl:px-[5%] lg:min-h-[70vh] lg:px-[3%] sm:px-[4%] sm:pt-9 sm:pb-5"
+      id="about"
+    >
+      <div class="aboutimg">
+        <img
+          class="lg:w-[180vw] sm:w-[40vw] xl:w-[160vw] 2xl:w-[130vw] 4xl:w-[100vw]"
+          src="images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg"
+          alt=""
+        />
+      </div>
+      <div class="aboutcontent lg:text-left leading-7 sm:max-lg:text-center">
+        <h2
+          class="heading sm:text-3xl xl:text-4xl sm:mb-2 sm:leading-snug 4xl:text-5xl items-center font-semibold lg:justify-normal sm:max-lg:gap-1 lg:mb-5"
+        >
+          About <span class="maincolor">Me</span>
+        </h2>
+        <h3 class="sm:text-xl xl:text-2xl 4xl:text-4xl font-semibold">
+          FrontEnd Developer
+        </h3>
+        <p
+          class="sm:mt-3 sm:mb-6 2xl:mt-5 2xl:mb-8 4xl:mt-8 4xl:mb-12 text-xl md:text-lg"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nisi
+          harum numquam ea ab error, possimus quasi ex aliquam consectetur, est,
+          iusto cumque dicta totam voluptate illo in? Pariatur facilis autem
+          officia assumenda perferendis officiis quaerat fuga reprehenderit
+          maiores, eum reiciendis earum, recusandae tempora saepe quam
+          temporibus fugit? Ipsam, totam.
+        </p>
+        <button class="btn">Read More</button>
+      </div>
+    </section>
+
+    <!-- Services Page Design  -->
+
+    <section
+      class="services 4xl:min-h-full md:min-h-[60vh] xl:px-[9%] lg:px-[5%] xl:pt-20 xl:pb-20 lg:pb-14 lg:pt-14 md:pb-9 md:pt-12 md:px-[4%] sm:px-[2%] sm:pt-9 sm:pb-5"
+      id="services"
+    >
+      <h2 class="heading sm:max-lg:text-5xl xl:mb-20 lg:mb-14 sm:mb-10">
+        Our <span class="maincolor">Services</span>
+      </h2>
+      <div
+        class="servicecontent flex justify-center items-center gap-6 flex-wrap"
+      >
+        <div class="servicebox">
+          <i class="bi bi-code-slash maincolor text-6xl"></i>
+          <h3 class="text-4xl font-bold mt-2">Web Development</h3>
+          <p class="text-lg mt-4 mb-8">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus iusto est porro! Quas culpa voluptates quo, id provident
+            molest tenetur.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="servicebox">
+          <i class="bi bi-vector-pen maincolor text-6xl"></i>
+          <h3 class="text-4xl font-bold mt-2">Graphic Designing</h3>
+          <p class="text-lg mt-4 mb-8">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus iusto est porro! Quas culpa voluptates quo, id provident
+            molestias tenetur.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="servicebox">
+          <i class="bi bi-bar-chart-fill maincolor text-6xl"></i>
+          <h3 class="text-4xl font-bold mt-2">Digital Marketing</h3>
+          <p class="text-lg mt-4 mb-8">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus iusto est porro! Quas culpa voluptates quo, id provident
+            molestias tenetur.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio/Projects Page -->
+
+    <section
+      class="portfolio bg-gray-700 4xl:min-h-full md:min-h-[60vh]: xl:px-[9%] lg:px-[5%] xl:pt-20 xl:pb-20 lg:pb-14 lg:pt-14 md:pb-9 md:pt-12 md:px-[4%] sm:px-[7%] sm:pt-9 sm:pb-5"
+      id="Portfolio"
+    >
+      <h2 class="heading sm:max-lg:text-5xl xl:mb-20 lg:mb-14 sm:mb-10">
+        Latest <span class="maincolor">Projects</span>
+      </h2>
+      <div
+        class="portfoliocontent grid lg:grid-cols-1000 md:grid-cols-100 gap-6 items-center"
+      >
+        <div class="portbox">
+          <img
+            class="portboximg"
+            src="images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg"
+            alt=""
+          />
+          <div class="portlayer">
+            <h4
+              class="md:text-3xl lg:text-xl xl:text-2xl sm:max-md:text-5xl 2xl:text-4xl font-semibold"
+            >
+              Web Design
+            </h4>
+            <p
+              class="text-base mt-2 lg:mb-1 xl:text-sm lg:text-xs sm:max-md:text-xl sm:max-md:mb-3 xl:mb-3 2xl:mb-7 md:mb-6"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+              perferendis.
+            </p>
+            <a class="linkhref" href="#"
+              ><i class="bi-link-45deg text-2xl text-gray-700"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portbox">
+          <img
+            class="portboximg"
+            src="images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg"
+            alt=""
+          />
+          <div class="portlayer">
+            <h4
+              class="md:text-3xl lg:text-xl xl:text-2xl sm:max-md:text-5xl 2xl:text-4xl font-semibold"
+            >
+              Web Design
+            </h4>
+            <p
+              class="text-base lg:mb-1 xl:text-sm lg:text-xs sm:max-md:text-xl sm:max-md:mb-3 xl:mb-3 2xl:mb-7 md:mb-6"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+              perferendis.
+            </p>
+            <a class="linkhref" href="#"
+              ><i class="bi-link-45deg text-2xl text-gray-700"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portbox">
+          <img
+            class="portboximg"
+            src="images/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg"
+            alt=""
+          />
+          <div class="portlayer">
+            <h4
+              class="md:text-3xl lg:text-xl xl:text-2xl sm:max-md:text-5xl 2xl:text-4xl font-semibold"
+            >
+              2
+            </h4>
+            <p
+              class="text-base lg:mb-1 xl:text-sm lg:text-xs sm:max-md:text-xl sm:max-md:mb-3 xl:mb-3 2xl:mb-7 md:mb-6"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+              perferendis.
+            </p>
+            <a class="linkhref" href="#"
+              ><i class="bi-link-45deg text-2xl text-gray-700"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portbox">
+          <img
+            class="portboximg"
+            src="images/luke-chesser-JKUTrJ4vK00-unsplash.jpg"
+            alt=""
+          />
+          <div class="portlayer">
+            <h4
+              class="md:text-3xl lg:text-xl xl:text-2xl sm:max-md:text-5xl 2xl:text-4xl font-semibold"
+            >
+              3
+            </h4>
+            <p
+              class="text-base lg:mb-1 xl:text-sm lg:text-xs sm:max-md:text-xl sm:max-md:mb-3 xl:mb-3 2xl:mb-7 md:mb-6"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+              perferendis.
+            </p>
+            <a class="linkhref" href="#"
+              ><i class="bi-link-45deg text-2xl text-gray-700"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portbox">
+          <img
+            class="portboximg"
+            src="images/mohamed-m-6MXDP9u6fmU-unsplash.jpg"
+            alt=""
+          />
+          <div class="portlayer">
+            <h4
+              class="md:text-3xl lg:text-xl xl:text-2xl sm:max-md:text-5xl 2xl:text-4xl font-semibold"
+            >
+              4
+            </h4>
+            <p
+              class="text-base lg:mb-1 xl:text-sm lg:text-xs sm:max-md:text-xl sm:max-md:mb-3 xl:mb-3 2xl:mb-7 md:mb-6"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+              perferendis.
+            </p>
+            <a class="linkhref" href="#"
+              ><i class="bi-link-45deg text-2xl text-gray-700"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portbox">
+          <img
+            class="portboximg"
+            src="images/robs-HOrhCnQsxnQ-unsplash.jpg"
+            alt=""
+          />
+          <div class="portlayer">
+            <h4
+              class="md:text-3xl lg:text-xl xl:text-2xl sm:max-md:text-5xl 2xl:text-4xl font-semibold"
+            >
+              5
+            </h4>
+            <p
+              class="text-base lg:mb-1 xl:text-sm lg:text-xs sm:max-md:text-xl sm:max-md:mb-3 xl:mb-3 2xl:mb-7 md:mb-6"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+              perferendis.
+            </p>
+            <a class="linkhref" href="#"
+              ><i class="bi-link-45deg text-2xl text-gray-700"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design  -->
+
+    <section
+      class="contact lg:min-h-[70vh] md:min-h-[60vh]: xl:px-[9%] lg:px-[5%] xl:pt-20 xl:pb-20 lg:pb-14 lg:pt-14 md:pb-9 md:pt-12 md:px-[3%] sm:px-[2%] sm:pt-9 sm:pb-5"
+      id="contact"
+    >
+      <h2 class="heading sm:max-lg:text-5xl xl:mb-20 lg:mb-14 md:mb-10">
+        Contact <span class="maincolor">Me!</span>
+      </h2>
+      <form
+        action="#"
+        class="max-w-[70rem] my-4 mx-auto items-center contactform"
+      >
+        <div class="inputbox flex justify-between flex-wrap">
+          <input
+            class="inputt sm:max-md:w-full"
+            type="text"
+            placeholder="Full Name"
+          />
+          <input
+            class="inputt sm:max-md:w-full"
+            type="email"
+            placeholder="Email Address"
+          />
+        </div>
+        <div class="inputbox flex justify-between flex-wrap">
+          <input
+            class="inputt sm:max-md:w-full"
+            type="text"
+            placeholder="Mobile Number"
+          />
+          <input
+            class="inputt sm:max-md:w-full"
+            type="text"
+            placeholder="Email Subject"
+          />
+        </div>
+        <textarea
+          name=""
+          class="w-full p-6 text-xl text-white bg-gray-700 rounded-lg my-2 resize-none"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input
+          type="submit"
+          value="Send Message"
+          class="w-full p-6 text-xl justify-center rounded-lg my-2 cursor-pointer bg-[#0ef] text-black inline-block tracking-wider font-bold py-3 px-8 outline-none border-none shadow-myshad duration-75 ease-in hover:shadow-none"
+        />
+      </form>
+    </section>
+    <!-- Footer design  -->
+    <footer
+      class="footer flex justify-between items-center flex-wrap lg:py-6 md:py-2 sm:py-1 lg:px-[3%] sm:px-[2%] bg-gray-700"
+    >
+      <div class="footertext">
+        <p class="lg:text-2xl md:text-xl font-medium">
+          Copyright &copy; 2024 by KR | All Rights Reserved
+        </p>
+      </div>
+      <div class="footericon">
+        <a
+          class="duration-75 ease-in btn md:py-1 md:px-3 sm:px-2 sm:py-0"
+          href="#home"
+        >
+          <i
+            class="bi bi-caret-up-fill bg-[#0ef] text-gray-700 lg:text-2xl md:text-xl inline-flex justify-center items-center lg:p-3 md:p-1 rounded-lg"
+          ></i
+        ></a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
